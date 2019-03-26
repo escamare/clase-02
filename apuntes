@@ -1,0 +1,53 @@
+al programa le puedo indicar que me guarde una variable con un nombre:
+var a = 10;
+
+luego, bastara que yo diga "a", para que el prgrama vaya por lo guardad
+
+var a = "diez";
+
+var a = {
+nombre:"juan",
+apellido:"diez", 
+suerte:[1,5,6,7,100]}
+
+ y digo
+ a[0];
+ y me respondere "d"
+ 
+ a.nombre => juan
+ 
+ json - javascriptobjectnotation:
+ con json ya no va "var", y el denominaado y denominador (ejemplo: nombre; juan ) va en comillas
+ 
+{
+"nombre":"juan",
+"apellido":"diez", 
+"suerte":[1,5,6,7,100]}
+
+
+[
+{
+"nombre":"Camila",
+"apellido":"Uribe",
+
+},
+{
+
+"nombre":"Nicole",
+"apellido":"Martínez",
+
+},
+{
+
+"nombre":"Stephanie",
+"apellido":"Orellana",
+}
+]
+
+
+
+
+
+document.getElementById("aqui").innerHTML=("Tengo " + a.length + " amigos.");
+
+se debe agregar los espacios entre "tengo" y "amigos" para qu la respuesta sea con los tres terminos separados
